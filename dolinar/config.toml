@@ -2,3 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "dolinar-homepage"
 theme = "ananke"
+[[menu.main]]
+    name = "O nas"
+    weight = 0
+    url = "/about/"
