@@ -1,0 +1,15 @@
+# https://rmoff.net/2020/12/20/scheduling-hugo-builds-on-github-pages-with-github-actions/
+
+name: learn-github-actions
+on: [push]
+jobs:
+  build:
+    runs-on: klakegg/hugo:0.80.0-ubuntu
+    steps:
+      - uses: actions/checkout@v2
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.80.0'
+    - name: Build
+      run: cd dolinar && hugo && find ./public/ -type f
