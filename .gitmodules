@@ -1,0 +1,3 @@
+[submodule "dolinar/themes/syna"]
+	path = dolinar/themes/syna
+	url = https://github.com/okkur/syna.git
