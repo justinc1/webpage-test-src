@@ -1,3 +1,6 @@
 [submodule "dolinar/themes/syna"]
 	path = dolinar/themes/syna
 	url = https://github.com/okkur/syna.git
+[submodule "dolinar/themes/ananke"]
+	path = dolinar/themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
