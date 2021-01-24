@@ -12,4 +12,4 @@ jobs:
       with:
         hugo-version: '0.80.0'
     - name: Build
-      run: cd dolinar && hugo && find ./public/ -type f
+      run: cd dolinar && rm -fr public && hugo && find ./public/ -type f
